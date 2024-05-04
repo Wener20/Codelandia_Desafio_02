@@ -1,5 +1,6 @@
-.container_text_header{
-    max-width: 1240px;
+.container_text_header {
+
+    max-width: 1920px;
     height: auto;
     margin: 0 auto;
     padding: 0 20px;
@@ -7,9 +8,9 @@
 }
 
 
-@media (min-width: 360px){
-    
-    .text_header{
+@media (min-width: 400px) {
+
+    .text_header {
         width: 100%;
         height: 39px;
         padding: 12px;
@@ -20,48 +21,249 @@
         font-style: normal;
         font-weight: 500;
     }
-    
-    .container_img_hero{
+
+    .container_img_hero {
         max-width: 1240px;
         height: 378px;
         margin: 0 auto;
         padding: 91px 24px;
         align-items: center;
-        
+        margin-bottom: 40px;
+
         background-image: url(/assets/img/hero1.png);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
         border: 1px solid blue;
     }
-    
-    .text_log{
+
+    .text_log {
         width: auto;
         display: flex;
         align-items: center;
         gap: 8px;
-        
+
         color: #FFF;
         font-family: "Archivo";
         font-size: 18px;
         font-weight: 500;
     }
-    
-    .title{
+
+    .title {
         color: #FFF;
         font-family: "Archivo";
         font-size: 24px;
         margin-top: 40px;
     }
-    
-    .sub_title{
+
+    .sub_title {
+        width: 328px;
+        display: flex;
         margin-top: 12px;
         color: #FFF;
         font-family: "Archivo";
         font-size: 16px;
         font-style: normal;
-        line-height: 140%;      
+        line-height: 140%;
     }
-    
-    
+
+    .anunciado {
+        width: 319px;
+        height: 94px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .title_anuciado {
+        width: 100%;
+        font-family: "Archivo";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 21.76px;
+        text-align: center;
+    }
+
+    .conteudo_anucidado {
+        width: 100%;
+        margin-top: 12px;
+        font-family: "Archivo";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: center;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 319px;
+        height: auto;
+        align-items: center;
+        padding: 56px 0;
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+
+    .card {
+        width: 100%;
+        height: 326px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .fundo_shoes {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        background: #F3F7FF;
+    }
+
+    .img {
+        margin: 0 auto;
+    }
+
+    .legendas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+    .descricao {
+        font-family: "Archivo";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: left;
+    }
+
+    .descricao_padrao {
+        color: #7CA2F4;
+        font-family: "Archivo";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17.41px;
+        text-align: left;
+    }
+
+    .valor {
+        width: 100%;
+        font-family: "Space Grotesk";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25.52px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 850px) {
+
+
+    .text_header {
+        height: 41px;
+        font-size: 16px;
+    }
+
+    .container_img_hero {
+        background-image: url(/assets/img/hero2.png);
+    }
+
+    .sub_title {
+        width: 557px;
+        font-size: 18px;
+    }
+
+    .anunciado {
+        width: 520px;
+    }
+
+    .title_anuciado {
+        font-size: 24px;
+    }
+
+    .conteudo_anucidado {
+        font-size: 16px;
+    }
+
+    .grid_container {
+        width: 704px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .descricao {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .text_header {
+        height: 64px;
+        font-size: 24px;
+        padding: 19px;
+    }
+
+    .container_img_hero {
+        max-width: 1920px;
+        height: 400px;
+        background-image: url(/assets/img/hero3.png);
+    }
+
+    .logo {
+        width: 38.4px;
+        height: 35.94px;
+        top: 6px;
+        left: 4.42px;
+
+    }
+
+    .text_log {
+        font-size: 24px;
+    }
+
+    .title{
+        font-size: 34px;
+    }
+
+    .sub_title{
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+
+    .anunciado{
+        width: 600px;
+        height: 64px;
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .title_anuciado{
+        font-size: 32px;
+    }
+
+    .conteudo_anucidado{
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+
+    .grid_container{
+        width: 1216px;
+        padding: 80px 0;
+        grid-template-columns: 1fr 1fr 1fr  ;
+    }
+
+    .descricao{
+        line-height: 23.4px;
+    }
+
 }
